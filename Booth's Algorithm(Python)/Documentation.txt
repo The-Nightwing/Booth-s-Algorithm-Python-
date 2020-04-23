@@ -1,0 +1,26 @@
+I have Implemented Booth's Algorithm in Python.
+It is considered that we are using only integers(not floating point numbers).
+
+Functions Used:
+    converttoBinary:
+        It calls two functions.if number is positive it will call positive num ele twoscompliment
+    positivenum(n)
+        It converts the positive number given by converttoBinary function in its binary form.
+    twoscompliment(n)
+        It converts the negative number to its equivalent twoscompliment form because that is how we represent negative numbers.
+    shiftToRight(n)
+        It is for right shifting of the binary number passed to it.
+    adding(n):
+        It is for addition of two binary numbers passed to it.
+    binaryToDecimal(n):
+        If the answer is coming to be positive binaryToDecimal will give the result, else it will call the btoD function.
+    btoD(n):
+        It is for converting the decimal into binary if the answer coming is to be negative.
+    Booth(b1,b2):
+        This is where the algorithm took place.
+    main():
+        Main Function of the program.
+
+
+Reference: https://en.wikipedia.org/wiki/Booth%27s_multiplication_algorithm                                                              
+
